@@ -26,5 +26,6 @@ urlpatterns = [
     path('category/', include('blog.urls')),
 ]
 
+
 handler404 = 'pages.views.page_not_found'
 handler500 = 'pages.views.internal_server_error'
